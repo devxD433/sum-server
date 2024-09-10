@@ -1,18 +1,12 @@
 {
-  "name": "http-server-3",
+  "name": "express-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.1.4",
-    "zod": "^3.23.8"
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
   }
 }
